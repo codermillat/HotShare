@@ -1,0 +1,2 @@
+-keep class com.hotshare.** { *; }
+-dontwarn com.google.zxing.**

@@ -1,0 +1,24 @@
+# Android / Gradle build artifacts
+.gradle/
+build/
+app/build/
+**/build/
+
+# Signing keys — NEVER commit
+keystore/
+*.jks
+*.keystore
+*.pem
+
+# Local machine config
+local.properties
+*.iml
+.idea/
+
+# OS noise
+.DS_Store
+
+# Distribution binaries — attach to GitHub Releases instead of committing
+*.apk
+*.idsig
+*.ap_
