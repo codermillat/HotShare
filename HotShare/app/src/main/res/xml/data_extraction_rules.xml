@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Android 12+ (API 31+) backup/transfer rules.
+  hotshare_prefs holds the user's own hotspot SSID + Wi-Fi password and the
+  last AP-band choice — device-local secrets that must never leave the phone
+  via cloud backup or device-to-device transfer.
+-->
+<data-extraction-rules>
+    <cloud-backup>
+        <exclude domain="sharedpref" path="hotshare_prefs.xml" />
+    </cloud-backup>
+    <device-transfer>
+        <exclude domain="sharedpref" path="hotshare_prefs.xml" />
+    </device-transfer>
+</data-extraction-rules>

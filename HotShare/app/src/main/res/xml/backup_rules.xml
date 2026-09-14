@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Legacy (API 26–30) Auto Backup rules. Mirrors data_extraction_rules.xml:
+  the hotspot SSID/password in hotshare_prefs stays on-device only.
+-->
+<full-backup-content>
+    <exclude domain="sharedpref" path="hotshare_prefs.xml" />
+</full-backup-content>

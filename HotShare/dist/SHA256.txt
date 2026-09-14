@@ -1,0 +1,1 @@
+35e5d44d21ff9b029ff759a7474feeb4fe0e732fd23dbb7c9cb5e21d06e36327  dist/HotShare-v1.apk
